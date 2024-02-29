@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-%=4y!gs-#rut4o)3k1$zg*yh!md^2btr^_^k)np#3_w5ebz21i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['198.211.99.20', 'localhost', '127.0.0.1' ]
+ALLOWED_HOSTS = ['198.211.99.20', 'localhost', '127.0.0.1','ciphers-service-91n4.onrender.com' ]
 
 
 # Application definition
@@ -130,4 +130,5 @@ CORS_ALLOWED_ORIGINS = [
     "https://nivedithabp.github.io",
     "http://localhost:3000",
     "https://Nivedithabp.github.io",
+    "https://ciphers-service-91n4.onrender.com"
 ]
